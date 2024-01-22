@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif; font-size: 16px; color: #66666; margin: 0; background-color: #E5E5E5 
+}
+h2{
+	font-weight: bold
+}
+h3{
+	font-weight:300
+}
+.top-bar{
+	width: 100%; height: 50px; line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #F2C94C
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius: 5px
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6; color: #F2C94C
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-bottom: 0; padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item  .dropdown-menu .dropdown-item:hover{
+	background-color: #F2C94C
+}
+main
+{width: 100%; min-heigt: 600px}
+footer
+{width: 100%; min-height: 300px; padding-top: 25px}
+.gach-chan{
+	border-bottom: 2px solid #FFC113; padding: 20px 5px; 
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+.bottom-bar
+{width: 100%; height: 50px; line-height: 50px}
+#service a{
+	text-decoration: none; color: #464646
+}
+#service a:hover{
+	color: #FFC113
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%; margin-right: 10px; 
+}
+#why{
+	width: 100%; min-height: 400px; background: url("../images/why.jpg") ; background-repeat: no-repeat; background-size: cover; background-positon: center top
+}
+#client .hinh{
+	width: 100%; min-heigt: 100px; position: relative
+}
+#client .truoc{
+	position: absolute; left: 0; top:0; padding: 6px; background-color:rgba(231,231,231,0.80); color:rgba(96,96,96,1.00)
+}
+#client .sau{
+	position: absolute; left: 50%; top: 0; padding: 6px; background-color:rgba(231,231,231,0.80); color:rgba(96,96,96,1.00)
+}
+#cam-nhan .noidung img{
+	width: 80px; height: 80px
+}
+#cam-nhan .noidung{
+	padding: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center 
+}
+#tin-tuc .img{
+	 
+}
+
+
+.btn{
+	padding: 10px 30px; cursor: pointer; border-radius: 5px
+}
+.btn:hover{
+	background-color: #FFC113
+}
+.btn-warning:hover{
+	background-color: #056CB6
+}
+.form-control{
+	border-radius: 0
+}
+.text-danger{ text-decoration: none}
+.text-black-50{text-decoration:none}
+.icon a{
+	color: white 
+}
+.icon a:hover{
+	color: #F2C94C
+}
+.icon{
+	margin-right: 200px; margin-left: 10px
+}
+#banner{
+	width: 100%; min-height: 300px; background: url("../images/pageheader.png"); background-repeat: no-repeat; background-size: cover; background-position: center 
+}
+#map{
+	padding-top: 50px; padding-bottom: 150px
+}
